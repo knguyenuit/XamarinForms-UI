@@ -347,11 +347,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI/DemoUI.csproj",
+      "projectUniqueName": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/DemoUI.csproj",
       "projectName": "DemoUI",
-      "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI/DemoUI.csproj",
+      "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/DemoUI.csproj",
       "packagesPath": "/Users/nguyenseven/.nuget/packages/",
-      "outputPath": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI/obj/",
+      "outputPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

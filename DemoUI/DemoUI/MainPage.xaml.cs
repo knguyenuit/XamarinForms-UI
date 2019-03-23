@@ -12,6 +12,12 @@ namespace DemoUI
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        void Handle_Pressed(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new HomePage());
         }
     }
 }

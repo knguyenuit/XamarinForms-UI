@@ -1,22 +1,35 @@
-﻿<Properties StartupConfiguration="{CAB6D779-4D1D-4084-B943-91B7E6B0AFF0}|Default">
+﻿<Properties StartupConfiguration="{A01F625D-A4E7-4F5E-9830-3A6AFC952921}|Default">
   <MonoDevelop.Ide.ItemProperties.DemoUI.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUI/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUI/MainPage.xaml.cs">
     <Files>
-      <File FileName="DemoUI/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="DemoUI/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="DemoUI/MainPage.xaml.cs" Line="19" Column="38" />
+      <File FileName="DemoUI/MainPage.xaml" Line="19" Column="124" />
+      <File FileName="DemoUI/App.xaml" Line="5" Column="15" />
+      <File FileName="DemoUI/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="DemoUI/CustomView/CustomEntryRenderer.cs" Line="7" Column="3" />
+      <File FileName="DemoUI/CustomView/ElementChangedEventArgs.cs" Line="1" Column="1" />
+      <File FileName="DemoUI/CustomView/EntryHideBorder.cs" Line="7" Column="6" />
+      <File FileName="DemoUI/App.xaml.cs" Line="14" Column="59" />
+      <File FileName="DemoUI/HomePage.xaml" Line="6" Column="1" />
+      <File FileName="DemoUI/HomePage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DemoUI" expanded="True">
-            <Node name="DemoUI" expanded="True" />
+            <Node name="DemoUI" expanded="True">
+              <Node name="CustomView" expanded="True" />
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DemoUI FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DemoUI.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DemoUI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.96291A43-542D-4863-9755-94958EC1BBE3" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

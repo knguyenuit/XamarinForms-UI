@@ -1,7 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DemoUI" x:Class="DemoUI.MainPage">
-    <StackLayout>
+    <Grid RowSpacing="0" BackgroundColor="#954deb">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="64" />
+        </Grid.RowDefinitions>
+        <BoxView Grid.Row="0" BackgroundColor="Transparent" />
+        <StackLayout Grid.Row="1" BackgroundColor="Transparent">
+            <Label Text="Hi There!" FontSize="30" FontAttributes="None" TextColor="White" Margin="12, 0, 0, 0"/>
+            <Label Text="There’s no method or diet you can pin your hopes on. Instead, you’re on your own while making your own calls." FontSize="14" FontAttributes="None" TextColor="White" Margin="12, 7.5, 19.5, 0" MaxLines="3"/>
+            <Entry Placeholder="Your Login" Margin="12, 20, 24, 0" HeightRequest="50" x:Name="tfEmail"/>
+            
+            <Entry Placeholder="Password" Margin="12, 40, 24, 0" HeightRequest="50" x:Name="tfPassword" IsPassword="true"/>
+            <Button Margin="12, 0, 20, 16" Text="I don’t remember login or password" TextColor="White" FontSize="12"/>
+        </StackLayout>
+        <Button Grid.Row="2" BackgroundColor="#3e2381" Text="START" TextColor="White" FontSize="20" Pressed="Handle_Pressed"/>
+    </Grid>
 </ContentPage>

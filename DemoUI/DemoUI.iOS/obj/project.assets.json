@@ -718,11 +718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI.iOS/DemoUI.iOS.csproj",
+      "projectUniqueName": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI.iOS/DemoUI.iOS.csproj",
       "projectName": "DemoUI.iOS",
-      "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI.iOS/DemoUI.iOS.csproj",
+      "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI.iOS/DemoUI.iOS.csproj",
       "packagesPath": "/Users/nguyenseven/.nuget/packages/",
-      "outputPath": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI.iOS/obj/",
+      "outputPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -737,8 +737,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI/DemoUI.csproj": {
-              "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/DemoUI/DemoUI/DemoUI.csproj"
+            "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/DemoUI.csproj": {
+              "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/DemoUI.csproj"
             }
           }
         }
