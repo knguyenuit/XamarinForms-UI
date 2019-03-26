@@ -1,6 +1,12 @@
 DemoUI
 System.Runtime
 FormsViewGroup
+MvvmCross
+MvvmCross.Droid.Support.Core.UI
+MvvmCross.Droid.Support.Design
+MvvmCross.Droid.Support.Fragment
+MvvmCross.Droid.Support.V7.AppCompat
+MvvmCross.Forms
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime

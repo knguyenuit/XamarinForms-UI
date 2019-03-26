@@ -1,25 +1,26 @@
 ﻿<Properties StartupConfiguration="{A01F625D-A4E7-4F5E-9830-3A6AFC952921}|Default">
-  <MonoDevelop.Ide.ItemProperties.DemoUI.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUI/MainPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.DemoUI.Android PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUI/ViewModels/LoginViewModel.cs">
     <Files>
-      <File FileName="DemoUI/MainPage.xaml.cs" Line="30" Column="6" />
-      <File FileName="DemoUI/MainPage.xaml" Line="16" Column="103" />
-      <File FileName="DemoUI/App.xaml" Line="5" Column="15" />
-      <File FileName="DemoUI/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="DemoUI/CustomView/CustomEntryRenderer.cs" Line="7" Column="3" />
-      <File FileName="DemoUI/CustomView/ElementChangedEventArgs.cs" Line="1" Column="1" />
-      <File FileName="DemoUI/CustomView/EntryHideBorder.cs" Line="7" Column="6" />
-      <File FileName="DemoUI/App.xaml.cs" Line="13" Column="12" />
-      <File FileName="DemoUI/MainHome.xaml" Line="5" Column="15" />
-      <File FileName="DemoUI/MainHome.xaml.cs" Line="17" Column="1" />
-      <File FileName="DemoUI/CalendarPage.xaml" Line="33" Column="25" />
-      <File FileName="DemoUI/CalendarPage.xaml.cs" Line="18" Column="91" />
-      <File FileName="DemoUI/GoalsPage.xaml" Line="6" Column="33" />
-      <File FileName="DemoUI/GoalsPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="DemoUI/SkillsPage.xaml" Line="4" Column="32" />
-      <File FileName="DemoUI/SkillsPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="DemoUI/MorePage.xaml" Line="8" Column="1" />
-      <File FileName="DemoUI/MorePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="DemoUI/Pages/LoginPage.xaml" Line="24" Column="134" />
+      <File FileName="DemoUI/ViewModels/LoginViewModel.cs" Line="72" Column="16" />
+      <File FileName="DemoUI/Pages/LoginPage.xaml.cs" Line="12" Column="61" />
+      <File FileName="DemoUI/ViewModels/HomeViewModel.cs" Line="40" Column="36" />
+      <File FileName="DemoUI/Pages/HomePage.xaml" Line="9" Column="4" />
+      <File FileName="DemoUI/Pages/HomePage.xaml.cs" Line="18" Column="10" />
+      <File FileName="DemoUI/CoreApp.cs" Line="19" Column="23" />
+      <File FileName="DemoUI/Pages/GoalsPage.xaml.cs" Line="11" Column="94" />
+      <File FileName="DemoUI/Pages/CalendarPage.xaml.cs" Line="12" Column="62" />
+      <File FileName="DemoUI/Pages/MorePage.xaml.cs" Line="11" Column="99" />
+      <File FileName="DemoUI/Pages/SkillsPage.xaml.cs" Line="11" Column="96" />
+      <File FileName="DemoUI/ViewModels/CalendarViewModel.cs" Line="12" Column="52" />
+      <File FileName="DemoUI/ViewModels/GoalsViewModel.cs" Line="5" Column="47" />
+      <File FileName="DemoUI/ViewModels/SkillsViewModel.cs" Line="7" Column="31" />
+      <File FileName="DemoUI/ViewModels/MoreViewModel.cs" Line="5" Column="46" />
+      <File FileName="DemoUI/Pages/CalendarPage.xaml" Line="7" Column="60" />
+      <File FileName="DemoUI/Pages/GoalsPage.xaml" Line="7" Column="57" />
+      <File FileName="DemoUI/Pages/MorePage.xaml" Line="11" Column="23" />
+      <File FileName="DemoUI/Pages/SkillsPage.xaml" Line="9" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,24 +28,24 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="DemoUI" expanded="True">
             <Node name="DemoUI" expanded="True">
-              <Node name="CalendarPage.xaml" expanded="True" />
-              <Node name="GoalsPage.xaml" expanded="True" />
-              <Node name="MainHome.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CalendarPage.xaml" expanded="True" />
+                <Node name="GoalsPage.xaml" expanded="True" />
+                <Node name="HomePage.xaml" expanded="True" />
+                <Node name="LoginPage.xaml" expanded="True" />
               </Node>
-              <Node name="MorePage.xaml" expanded="True" />
-              <Node name="SkillsPage.xaml" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="LoginViewModel.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="DemoUI.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
+            <Node name="DemoUI.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DemoUI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.96291A43-542D-4863-9755-94958EC1BBE3" />
+  <MonoDevelop.Ide.ItemProperties.DemoUI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7F601B44-6227-4F21-B450-840CC248B6D3" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

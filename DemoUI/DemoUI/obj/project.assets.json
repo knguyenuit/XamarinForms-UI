@@ -11,6 +11,28 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MvvmCross/6.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmCross.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.dll": {}
+        }
+      },
+      "MvvmCross.Forms/6.2.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmCross.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Forms.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -26,7 +48,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Xamarin.Forms/3.4.0.1008975": {
+      "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -47,17 +69,92 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        ".signature.p7s",
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
         "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json"
+      ]
+    },
+    "MvvmCross/6.2.3": {
+      "sha512": "sqJ0K3mJanygqo5oc9ZG/8e+GH2D2UaPJhE9+8xyUT8uPn/Sp4XfO9pADzavcLO9cRUWpj72CNzNT6xt15vf9w==",
+      "type": "package",
+      "path": "mvvmcross/6.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/MvvmCross.dll",
+        "lib/monoandroid81/MvvmCross.pdb",
+        "lib/monoandroid81/MvvmCross.xml",
+        "lib/net461/MvvmCross.dll",
+        "lib/net461/MvvmCross.pdb",
+        "lib/net461/MvvmCross.xml",
+        "lib/netcoreapp2.0/MvvmCross.dll",
+        "lib/netcoreapp2.0/MvvmCross.pdb",
+        "lib/netcoreapp2.0/MvvmCross.xml",
+        "lib/netstandard2.0/MvvmCross.dll",
+        "lib/netstandard2.0/MvvmCross.pdb",
+        "lib/netstandard2.0/MvvmCross.xml",
+        "lib/tizen40/MvvmCross.dll",
+        "lib/tizen40/MvvmCross.pdb",
+        "lib/tizen40/MvvmCross.xml",
+        "lib/uap10.0.16299/MvvmCross.dll",
+        "lib/uap10.0.16299/MvvmCross.pdb",
+        "lib/uap10.0.16299/MvvmCross.pri",
+        "lib/uap10.0.16299/MvvmCross.xml",
+        "lib/xamarinios10/MvvmCross.dll",
+        "lib/xamarinios10/MvvmCross.pdb",
+        "lib/xamarinios10/MvvmCross.xml",
+        "lib/xamarinmac20/MvvmCross.dll",
+        "lib/xamarinmac20/MvvmCross.pdb",
+        "lib/xamarinmac20/MvvmCross.xml",
+        "lib/xamarintvos10/MvvmCross.dll",
+        "lib/xamarintvos10/MvvmCross.pdb",
+        "lib/xamarintvos10/MvvmCross.xml",
+        "lib/xamarinwatchos10/MvvmCross.dll",
+        "lib/xamarinwatchos10/MvvmCross.pdb",
+        "lib/xamarinwatchos10/MvvmCross.xml",
+        "mvvmcross.6.2.3.nupkg.sha512",
+        "mvvmcross.nuspec",
+        "readme.txt"
+      ]
+    },
+    "MvvmCross.Forms/6.2.3": {
+      "sha512": "irfgfK5Rd6SxLCSQvQb+XGdRgpDZN9/HsYXLyfneRP8qZxtVq0u7bjZweQZ/uxsEJzTg1dkGc6os/4W15X79vA==",
+      "type": "package",
+      "path": "mvvmcross.forms/6.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/MvvmCross.Forms.dll",
+        "lib/monoandroid81/MvvmCross.Forms.pdb",
+        "lib/monoandroid81/MvvmCross.Forms.xml",
+        "lib/net461/MvvmCross.Forms.dll",
+        "lib/net461/MvvmCross.Forms.pdb",
+        "lib/net461/MvvmCross.Forms.xml",
+        "lib/netstandard2.0/MvvmCross.Forms.dll",
+        "lib/netstandard2.0/MvvmCross.Forms.pdb",
+        "lib/netstandard2.0/MvvmCross.Forms.xml",
+        "lib/tizen40/MvvmCross.Forms.dll",
+        "lib/tizen40/MvvmCross.Forms.pdb",
+        "lib/tizen40/MvvmCross.Forms.xml",
+        "lib/uap10.0.16299/MvvmCross.Forms.dll",
+        "lib/uap10.0.16299/MvvmCross.Forms.pdb",
+        "lib/uap10.0.16299/MvvmCross.Forms.pri",
+        "lib/uap10.0.16299/MvvmCross.Forms.xml",
+        "lib/xamarinios10/MvvmCross.Forms.dll",
+        "lib/xamarinios10/MvvmCross.Forms.pdb",
+        "lib/xamarinios10/MvvmCross.Forms.xml",
+        "lib/xamarinmac20/MvvmCross.Forms.dll",
+        "lib/xamarinmac20/MvvmCross.Forms.pdb",
+        "lib/xamarinmac20/MvvmCross.Forms.xml",
+        "mvvmcross.forms.6.2.3.nupkg.sha512",
+        "mvvmcross.forms.nuspec",
+        "readme.txt"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -188,24 +285,25 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+    "Xamarin.Forms/3.6.0.264807": {
+      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
       "type": "package",
-      "path": "xamarin.forms/3.4.0.1008975",
+      "path": "xamarin.forms/3.6.0.264807",
       "files": [
         ".signature.p7s",
+        "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
         "build/Xamarin.Forms.targets",
-        "build/net461/Mono.Cecil.Mdb.dll",
-        "build/net461/Mono.Cecil.Pdb.dll",
-        "build/net461/Mono.Cecil.Rocks.dll",
-        "build/net461/Mono.Cecil.dll",
-        "build/net461/System.CodeDom.dll",
-        "build/net461/Xamarin.Forms.Build.Tasks.dll",
-        "build/net461/Xamarin.Forms.Core.dll",
-        "build/net461/Xamarin.Forms.Xaml.dll",
+        "build/net46/Mono.Cecil.Mdb.dll",
+        "build/net46/Mono.Cecil.Pdb.dll",
+        "build/net46/Mono.Cecil.Rocks.dll",
+        "build/net46/Mono.Cecil.dll",
+        "build/net46/System.ValueTuple.dll",
+        "build/net46/Xamarin.Forms.Build.Tasks.dll",
+        "build/net46/Xamarin.Forms.Core.dll",
+        "build/net46/Xamarin.Forms.Xaml.dll",
         "build/netstandard2.0/Mono.Cecil.Mdb.dll",
         "build/netstandard2.0/Mono.Cecil.Pdb.dll",
         "build/netstandard2.0/Mono.Cecil.Rocks.dll",
@@ -214,19 +312,32 @@
         "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard2.0/Xamarin.Forms.Core.dll",
         "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid81/FormsViewGroup.dll",
+        "lib/MonoAndroid81/FormsViewGroup.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid90/FormsViewGroup.dll",
+        "lib/MonoAndroid90/FormsViewGroup.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
@@ -310,8 +421,10 @@
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.pdb",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
@@ -319,45 +432,50 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Items/ItemsViewStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
+        "xamarin.forms.3.6.0.264807.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "MvvmCross >= 6.2.3",
+      "MvvmCross.Forms >= 6.2.3",
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.Forms >= 3.4.0.1008975"
+      "Xamarin.Forms >= 3.6.0.264807"
     ]
   },
   "packageFolders": {
-    "/Users/nguyenseven/.nuget/packages/": {},
+    "/Users/minhlt/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/DemoUI.csproj",
+      "projectUniqueName": "/Users/minhlt/Documents/Projects/XamarinDemoUi/DemoUI/DemoUI/DemoUI.csproj",
       "projectName": "DemoUI",
-      "projectPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/DemoUI.csproj",
-      "packagesPath": "/Users/nguyenseven/.nuget/packages/",
-      "outputPath": "/Users/nguyenseven/Documents/Project Xamarin/Demo-UI/DemoUI/DemoUI/obj/",
+      "projectPath": "/Users/minhlt/Documents/Projects/XamarinDemoUi/DemoUI/DemoUI/DemoUI.csproj",
+      "packagesPath": "/Users/minhlt/.nuget/packages/",
+      "outputPath": "/Users/minhlt/Documents/Projects/XamarinDemoUi/DemoUI/DemoUI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/nguyenseven/.config/NuGet/NuGet.Config"
+        "/Users/minhlt/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -379,6 +497,14 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "MvvmCross": {
+            "target": "Package",
+            "version": "[6.2.3, )"
+          },
+          "MvvmCross.Forms": {
+            "target": "Package",
+            "version": "[6.2.3, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -387,7 +513,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.4.0.1008975, )"
+            "version": "[3.6.0.264807, )"
           }
         },
         "imports": [

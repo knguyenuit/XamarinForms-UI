@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DemoUI.Pages.GoalsPage"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:viewModels="clr-namespace:DemoUI.ViewModels;assembly=DemoUI"
+             x:TypeArguments="viewModels:GoalsViewModel">
+    <ContentPage.Content>
+    </ContentPage.Content>
+</views:MvxContentPage>
