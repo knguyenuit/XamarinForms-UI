@@ -157,4 +157,14 @@
       <Name>DemoUI</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icCalendar.png" />
+    <BundleResource Include="Resources\icGoals.png" />
+    <BundleResource Include="Resources\icMore.png" />
+    <BundleResource Include="Resources\icSkills.png" />
+    <BundleResource Include="Resources\moon.png" />
+    <BundleResource Include="Resources\coffee.png" />
+    <BundleResource Include="Resources\tea.png" />
+    <BundleResource Include="Resources\dinner.png" />
+  </ItemGroup>
 </Project>

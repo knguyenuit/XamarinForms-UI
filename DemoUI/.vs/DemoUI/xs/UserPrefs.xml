@@ -1,28 +1,43 @@
 ﻿<Properties StartupConfiguration="{A01F625D-A4E7-4F5E-9830-3A6AFC952921}|Default">
-  <MonoDevelop.Ide.ItemProperties.DemoUI.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.DemoUI.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DemoUI/MainPage.xaml.cs">
     <Files>
-      <File FileName="DemoUI/MainPage.xaml.cs" Line="19" Column="38" />
-      <File FileName="DemoUI/MainPage.xaml" Line="19" Column="124" />
+      <File FileName="DemoUI/MainPage.xaml.cs" Line="30" Column="6" />
+      <File FileName="DemoUI/MainPage.xaml" Line="16" Column="103" />
       <File FileName="DemoUI/App.xaml" Line="5" Column="15" />
       <File FileName="DemoUI/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="DemoUI/CustomView/CustomEntryRenderer.cs" Line="7" Column="3" />
       <File FileName="DemoUI/CustomView/ElementChangedEventArgs.cs" Line="1" Column="1" />
       <File FileName="DemoUI/CustomView/EntryHideBorder.cs" Line="7" Column="6" />
-      <File FileName="DemoUI/App.xaml.cs" Line="14" Column="59" />
-      <File FileName="DemoUI/HomePage.xaml" Line="6" Column="1" />
-      <File FileName="DemoUI/HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="DemoUI/App.xaml.cs" Line="13" Column="12" />
+      <File FileName="DemoUI/MainHome.xaml" Line="5" Column="15" />
+      <File FileName="DemoUI/MainHome.xaml.cs" Line="17" Column="1" />
+      <File FileName="DemoUI/CalendarPage.xaml" Line="33" Column="25" />
+      <File FileName="DemoUI/CalendarPage.xaml.cs" Line="18" Column="91" />
+      <File FileName="DemoUI/GoalsPage.xaml" Line="6" Column="33" />
+      <File FileName="DemoUI/GoalsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="DemoUI/SkillsPage.xaml" Line="4" Column="32" />
+      <File FileName="DemoUI/SkillsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="DemoUI/MorePage.xaml" Line="8" Column="1" />
+      <File FileName="DemoUI/MorePage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="DemoUI" expanded="True">
             <Node name="DemoUI" expanded="True">
-              <Node name="CustomView" expanded="True" />
-              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="CalendarPage.xaml" expanded="True" />
+              <Node name="GoalsPage.xaml" expanded="True" />
+              <Node name="MainHome.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True">
                 <Node name="MainPage.xaml.cs" selected="True" />
               </Node>
+              <Node name="MorePage.xaml" expanded="True" />
+              <Node name="SkillsPage.xaml" expanded="True" />
+            </Node>
+            <Node name="DemoUI.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -17,7 +17,15 @@ namespace DemoUI
 
         void Handle_Pressed(object sender, System.EventArgs e)
         {
-            this.Navigation.PushAsync(new HomePage());
+            if (tfEmail.Text == "kn7" && tfPassword.Text == "123")
+            {
+                this.Navigation.PushAsync(new MainHome());
+            }
+            else
+            {
+                return;
+            }
+
         }
     }
 }
